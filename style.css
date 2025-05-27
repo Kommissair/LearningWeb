@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Montserrat', serif ;
+    box-sizing: border-box;
+    background-color: #003366;
+    background-image: linear-gradient(315deg, #003366 0%, #242124 74%);
+    background-repeat: no-repeat scroll;
+    background-attachment: fixed;
+    
+}
+
+.navbar ul{
+    width: 1890px;
+    margin: 0;
+    padding: 15px;
+    min-height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+    background-color: hsl(203, 23%, 29%);    
+}
+
+.navbar li {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    list-style-type: none;
+    transition: 0.4s  ease-in-out;
+}
+
+.navbar li:hover {
+    text-shadow: 0 0 15px hsl(0, 0%, 100%);
+    transform: scale(1.4);
+}
+
+.navbar a {
+    text-decoration: none;    
+    text-transform: uppercase;
+    font-weight: 900;
+    color: hsl(0, 0%, 100%);    
+}
+
+.container {
+    width: auto;
+    margin: 10px 20px 10px 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container .main-1{
+    padding-bottom: 20px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container .main-1 section {
+    border-top: 2px solid hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .i-frames-1 {
+    width: 560;
+    height: 315;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.container .i-frames-1:hover {
+    color: hsl(0, 0%, 100%);
+    background: #f8f5f5;
+    box-shadow: 0 0 20px hsl(0, 0%, 100%);
+    transform: scale(1.045);
+}
+
+.container .main-2 section {
+    padding-bottom: 20px;
+    border: 2px solid #fff7f7;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.container .i-frames-2 {
+    width: 560;
+    height: 315;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.container .i-frames-2:hover {
+    color: hsl(0, 0%, 100%);
+    background: #f8f5f5;
+    box-shadow: 0 0 20px hsl(0, 0%, 100%);
+    transform: scale(1.045);
+}
+
+.container .main-3 section {
+    padding-bottom: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container .i-frames-3 {
+    width: 560;
+    height: 315;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.container .i-frames-3:hover {
+    color: hsl(0, 0%, 100%);
+    background: #f8f5f5;
+    box-shadow: 0 0 20px hsl(0, 0%, 100%);
+    transform: scale(1.045);
+}
+
+.footers {
+    min-height: 35vh;
+    background: hsl(0, 6%, 10%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: #ffffff;
+}
+
+.footers div {
+    text-align: center;
+    padding-left: 30px;
+    padding-right:30px;
+}
+
+.footers div h3 {
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    transition: 0.5s ease-in-out;
+}
+
+.footers div h3:hover {
+    text-shadow: 0 0 20px hsl(0, 1%, 77%);
+    transform: scale(1.2);
+}
+
+.footers div p {
+    transition: 0.5s ease-in-out;
+}
+
+.footers div p:hover{
+    text-shadow: 0 0 20px hsl(0, 28%, 92%);
+    transform: scale(1.1);
+}
+
+.footers .col-4 h3 {
+    margin-bottom: -5px;
+}
+
+.footers .col-4 p {
+    margin-top: 10px;
+}
+
+.footers .col-4 p {
+    font-style: italic;
+    font-weight: 800;
+}
+
+.col-2, .col-3 {
+    flex-grow: 0.5;
+}
+
+.footers .col-1 a {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: x-large;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.footers .col-1 a:hover{
+    text-shadow: 0 0 10px hsl(0, 0%, 52%);
+    transform: scale(1.5);
+}
